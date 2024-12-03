@@ -10,7 +10,7 @@ public class UPITestScripts {
 	WebDriver driver;
   @Test
   public void techlearn() {
-	  driver.get("https://www.techlearn.in");
+	  driver.get("https://www.techlearn.in/");
   }
   @BeforeTest
   public void beforeTest() {
