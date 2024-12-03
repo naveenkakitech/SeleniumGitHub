@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Coordinates;
 import org.openqa.selenium.interactions.Locatable;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Ignore;
 
 public class PageScrollDownUp {
@@ -36,7 +37,7 @@ public class PageScrollDownUp {
 		 JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("scroll(3300, 0)");
         
-        Thread.sleep(4000);
+      
         
 	}
 	
@@ -59,6 +60,11 @@ public class PageScrollDownUp {
 	public void beforeTest() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+	}
+
+	@AfterTest
+	public void afterTest() {
+		driver.quit();
 	}
 
 }
