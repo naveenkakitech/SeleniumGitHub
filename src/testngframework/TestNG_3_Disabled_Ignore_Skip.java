@@ -21,7 +21,7 @@ public class TestNG_3_Disabled_Ignore_Skip {
 		driver.get("https://www.facebook.com");
 	}
 
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	public void twitter() {
 		driver.get("https://www.x.com");
 	}

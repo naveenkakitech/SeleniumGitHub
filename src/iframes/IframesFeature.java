@@ -21,7 +21,6 @@ public class IframesFeature {
 	//	driver.switchTo().frame(2);
 		
 		driver.switchTo().frame("iframeResult");		
-		
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//button[@onclick='myFunction()']")).click();
