@@ -18,7 +18,7 @@ public class TestNG_3_Disabled_Ignore_Skip {
 	@Ignore
 	@Test(priority=6)
 	public void facebook() {
-		driver.get("https://www.facebook.com");
+		driver.get("https://www.facebook.com/");
 	}
 
 	@Test(priority=1, enabled=true)
