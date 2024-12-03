@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-23T12:18:21 IST" name="Default suite" finished-at="2024-11-23T12:18:25 IST" duration-ms="3821">
+  <suite started-at="2024-12-03T11:44:55 IST" name="Default suite" finished-at="2024-12-03T11:45:02 IST" duration-ms="7038">
     <groups>
     </groups>
-    <test started-at="2024-11-23T12:18:21 IST" name="Default test" finished-at="2024-11-23T12:18:25 IST" duration-ms="3821">
-      <class name="verifytabtexturlapptext.VerificationMethods">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:verifytabtexturlapptext.VerificationMethods@5677323c]" started-at="2024-11-23T12:18:21 IST" name="beforeTest" finished-at="2024-11-23T12:18:22 IST" duration-ms="1331" status="PASS">
+    <test started-at="2024-12-03T11:44:55 IST" name="Default test" finished-at="2024-12-03T11:45:02 IST" duration-ms="7038">
+      <class name="paymentmodule.UPITestScripts">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:paymentmodule.UPITestScripts@3012646b]" started-at="2024-12-03T11:44:55 IST" name="beforeTest" finished-at="2024-12-03T11:44:57 IST" duration-ms="2477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="verifyTabtitletext()[pri:0, instance:verifytabtexturlapptext.VerificationMethods@5677323c]" started-at="2024-11-23T12:18:22 IST" name="verifyTabtitletext" finished-at="2024-11-23T12:18:25 IST" duration-ms="2467" status="PASS">
+        <test-method signature="techlearn()[pri:0, instance:paymentmodule.UPITestScripts@3012646b]" started-at="2024-12-03T11:44:58 IST" name="techlearn" finished-at="2024-12-03T11:45:02 IST" duration-ms="4355" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTabtitletext -->
-      </class> <!-- verifytabtexturlapptext.VerificationMethods -->
+        </test-method> <!-- techlearn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:paymentmodule.UPITestScripts@3012646b]" started-at="2024-12-03T11:45:02 IST" name="afterTest" finished-at="2024-12-03T11:45:02 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- paymentmodule.UPITestScripts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
