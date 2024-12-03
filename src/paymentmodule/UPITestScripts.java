@@ -2,6 +2,7 @@ package paymentmodule;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -11,6 +12,7 @@ public class UPITestScripts {
   @Test
   public void techlearn() {
 	  driver.get("https://www.techlearn.in/");
+	  driver.findElement(By.xpath("xyz")).click();
   }
   @BeforeTest
   public void beforeTest() {
